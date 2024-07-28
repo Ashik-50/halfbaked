@@ -41,19 +41,19 @@ const AddDoctor = () => {
         </div>
         <ul>
           <li>
-            <Link to="/adminhome">Dashboard</Link>
+            <Link to="/admin/home">Dashboard</Link>
           </li>
           <li>
-            <Link to="/admindoc">Doctors</Link>
+            <Link to="/admin/doc">Doctors</Link>
           </li>
           <li>
-            <Link to="/adminadd">Add Doctors</Link>
+            <Link to="/admin/add">Add Doctors</Link>
           </li>
           <li>
-            <Link to="/adminuser">Users</Link>
+            <Link to="/admin/user">Users</Link>
           </li>
           <li>
-            <Link to="/adminlogout">Logout</Link>
+            <Link to="/admin/logout">Logout</Link>
           </li>
         </ul>
       </div>

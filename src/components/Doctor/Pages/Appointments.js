@@ -45,19 +45,19 @@ const Appointments = () => {
         </div>
         <ul>
           <li style={{ padding: 10, borderBottom: '1px solid #444' }}>
-            <Link to="/dochome" style={{ color: '#fff', textDecoration: 'none' }}>Dashboard</Link>
+            <Link to="/doctor/home" style={{ color: '#fff', textDecoration: 'none' }}>Dashboard</Link>
           </li>
           <li style={{ padding: 10, borderBottom: '1px solid #444' }}>
-            <Link to="/docpat" style={{ color: '#fff', textDecoration: 'none' }}>Patients</Link>
+            <Link to="/doctor/pat" style={{ color: '#fff', textDecoration: 'none' }}>Patients</Link>
           </li>
           <li style={{ padding: 10, borderBottom: '1px solid #444' }}>
-            <Link to="/docapp" style={{ color: '#fff', textDecoration: 'none' }}>Appointments</Link>
+            <Link to="/doctor/app" style={{ color: '#fff', textDecoration: 'none' }}>Appointments</Link>
           </li>
           <li style={{ padding: 10, borderBottom: '1px solid #444' }}>
-            <Link to="/dochis" style={{ color: '#fff', textDecoration: 'none' }}>Consultation History</Link>
+            <Link to="/doctor/his" style={{ color: '#fff', textDecoration: 'none' }}>Consultation History</Link>
           </li>
           <li style={{ padding: 10, borderBottom: '1px solid #444' }}>
-            <Link to="/doclogout" style={{ color: '#fff', textDecoration: 'none' }}>Logout</Link>
+            <Link to="/doctor/logout" style={{ color: '#fff', textDecoration: 'none' }}>Logout</Link>
           </li>
         </ul>
       </div>

@@ -79,19 +79,19 @@ const ConHis = () => {
         </div>
         <ul>
       <li>
-        <Link to="/">Dashboard</Link>
+        <Link to="/doctor/home">Dashboard</Link>
       </li>
       <li>
-        <Link to="/docpat">Patients</Link>
+        <Link to="/doctor/pat">Patients</Link>
       </li>
       <li>
-        <Link to="/docapp">Appointments</Link>
+        <Link to="/doctor/app">Appointments</Link>
       </li>
       <li>
-        <Link to="/dochis">Consultation History</Link>
+        <Link to="/doctor/his">Consultation History</Link>
       </li>
       <li>
-        <Link to="/doclogout">Logout</Link>
+        <Link to="/doctor/logout">Logout</Link>
       </li>
     </ul>
       </div>

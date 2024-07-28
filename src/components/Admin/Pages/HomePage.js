@@ -70,19 +70,19 @@ const HomePage = () => {
         </div>
         <ul style={{ listStyle: 'none', padding: 0, margin: 0 }}>
           <li style={{ padding: 10, borderBottom: '1px solid #444' }}>
-            <Link to="/adminhome" style={{ color: '#fff', textDecoration: 'none' }}>Dashboard</Link>
+            <Link to="/admin/home" style={{ color: '#fff', textDecoration: 'none' }}>Dashboard</Link>
           </li>
           <li style={{ padding: 10, borderBottom: '1px solid #444' }}>
-            <Link to="/admindoc" style={{ color: '#fff', textDecoration: 'none' }}>Doctors</Link>
+            <Link to="/admin/doc" style={{ color: '#fff', textDecoration: 'none' }}>Doctors</Link>
           </li>
           <li style={{ padding: 10, borderBottom: '1px solid #444' }}>
-            <Link to="/adminadd" style={{ color: '#fff', textDecoration: 'none' }}>Add Doctors</Link>
+            <Link to="/admin/add" style={{ color: '#fff', textDecoration: 'none' }}>Add Doctors</Link>
           </li>
           <li style={{ padding: 10, borderBottom: '1px solid #444' }}>
-            <Link to="/adminuser" style={{ color: '#fff', textDecoration: 'none' }}>Users</Link>
+            <Link to="/admin/user" style={{ color: '#fff', textDecoration: 'none' }}>Users</Link>
           </li>
           <li style={{ padding: 10, borderBottom: '1px solid #444' }}>
-            <Link to="/adminlogout" style={{ color: '#fff', textDecoration: 'none' }}>Logout</Link>
+            <Link to="/admin/logout" style={{ color: '#fff', textDecoration: 'none' }}>Logout</Link>
           </li>
         </ul>
       </div>
